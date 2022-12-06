@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les tableaux</title>
+    <style>
+td
+{
+    text-align:center;
+    font-weight: bold;
+    
+}
+.txt
+{
+    font-size:28;
+    color:blue;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h1> Tableau standard</h1>
+        <table align="center" border="1" width="50%">
+            <tr><td>c1</td><td>c2</td><td>c3</td></tr>
+            <tr><td>c4</td><td>c5</td><td>c6</td></tr>
+        </table>
+        <br><br>
+    </div>
+    <div>
+        
+        <table border="2" align="center" width="50%">
+            <tr><td colspan="3" align="center"><span class="txt">Tableaux avec colspan</span></td></tr>
+            <tr><td>option1</td><td>option2</td><td>option3</td></tr>
+        </table>
+    </div><br><br>
+    <div>
+        <table align="center" border="1" width="50%">
+            <tr><td class="txt" rowspan="3">c1</td><td>c2</td><td>c3</td></tr>
+            <tr><td>c4</td><td>c5</td></tr>
+            <tr><td>c6</td><td>c7</td></tr>
+            <tr><td>c8</td><td>c9</td><td>c10</td></tr>
+        </table>
+    </div>
+    <br>
+    <a href="index.html">Aller à l'accueil</a>
+    <!-- a est la balise de lien href est la destinatin (href="#")=> un lien de blocage-->
+</body>
+</html>
